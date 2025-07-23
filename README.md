@@ -28,7 +28,18 @@ Need pre-invoice
 
 --> Net_invoice_amount = [gross_Sales_Amount] * [Pre_Invoice_discount_amt]
 
-##     Naming qyery steps
-##    Grouping Tables
-##    Disable load for tables that will not ysed outside
-##    Keep table names minimized
+## key points
+--> Having a correct understanding of business time intelligence concepts such as YTD (Year To Date), YTG (Year To Go), LE (Landing Estimates) can help you tremendously in the data analysis job.
+--> Power Query has a convenient option to allow the merging of two tables.
+--> Few best practices in Power Query
+--> Giving meaningful query step names help everyone
+--> Tables should be grouped in logical categories
+--> Disabling the load of tables that are not going to be used outside helps with performance
+--> Use consistent naming conventions for tables and measures
+
+# power query best practices
+
+  Naming qyery steps
+  Grouping Tables
+  Disable load for tables that will not ysed outside
+  Keep table names minimized
